@@ -4,6 +4,9 @@
   "main": "index.js",
   "private": true,
   "license": "Copyright 2016 Marty Penner",
+  "scripts": {
+    "start": "TOKEN=abc node bot.js"
+  },
   "dependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
