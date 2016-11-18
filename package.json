@@ -1,0 +1,31 @@
+{
+  "name": "brad-markov",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "botkit": "^0.4.1",
+    "markov-generator": "^1.1.0",
+    "rxjs": "^5.0.0-rc.3"
+  },
+  "bradJokes": [
+    "Even a stopped clock is right twice a day",
+    "Even a blind squirrel sometimes finds a nut",
+    "Did you hear about the cartoonist that was murdered? Details are sketchy",
+    "Someone stole all the toilets at the police station. The cops have nothing to go on",
+    "Guys, the app is done",
+    "That's what she said",
+    "Cover my body in mustard",
+    "I remember the first time I tried telling a joke",
+    "(long drawn out sigh)",
+    "No, James",
+    "What do you call an alligator that's a detective? An investagator!",
+    "Down The Java!",
+    "Nope, nope, nope!",
+    "Come on, Brad",
+    "Hydration is no joke",
+    "Well I'm sorry but this is a Brad impression first and a dev channel second"
+  ]
+}
