@@ -1,8 +1,4 @@
 bradmarkovbot:
   build: .
-#  ports:
-#    - "8000:2368"
-  volumes:
-    - themes/:/var/lib/ghost/themes
   environment:
     NODE_ENV: production
