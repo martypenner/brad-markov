@@ -1,4 +1,7 @@
-bradmarkovbot:
-  build: .
+ build: .
+  command: npm start
+  working_dir: /bot
+  volumes:
+    - .:/bot
   environment:
     NODE_ENV: production
