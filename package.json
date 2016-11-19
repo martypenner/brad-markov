@@ -5,7 +5,7 @@
   "private": true,
   "license": "Copyright 2016 Marty Penner",
   "scripts": {
-    "start": "TOKEN=abc node bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "babel-cli": "^6.18.0",
