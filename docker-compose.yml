@@ -6,3 +6,6 @@ bradmarkovbot:
     - .:/bot
   environment:
     NODE_ENV: production
+  env_file:
+    - token.env
+
