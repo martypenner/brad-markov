@@ -1,4 +1,5 @@
- build: .
+bradmarkovbot:
+  build: .
   command: npm start
   working_dir: /bot
   volumes:
