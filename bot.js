@@ -28,5 +28,5 @@ controller.hears(
     //       bot.botkit.log('Failed to add emoji reaction :(', err);
     //     }
     //   });
-    bot.reply(message, markov.makeChain());
+    bot.reply(message, markov());
   });
