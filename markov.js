@@ -6,10 +6,4 @@ const markov = new MarkovGen({
   minLength: 5
 });
 
-const markovWithRandomBradbotMention = () => {
-  const doIt = Math.random() > 0;
-  const prefix = doIt ? '@bradbot, ' : '';
-  return prefix + markov.makeChain();
-};
-
-module.exports = markovWithRandomBradbotMention;
+module.exports = markov;
